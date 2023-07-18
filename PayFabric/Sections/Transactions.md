@@ -191,12 +191,12 @@ Create and Process a Transaction
 ###### Request for create and process a transaction via a DiamondCloud Terminal
 <pre>
 {
-  "Amount": "11",
-  "Tender": "CreditCard",
-  "Currency": "USD",
-  "Type": "sale",
-  "ProcessingMethod": "CardPresent",
-  "Terminal": "T1",
+  <b>"Amount": "11",</b>
+  <b>"Tender": "CreditCard",</b>
+  <b>"Currency": "USD",</b>
+  <b>"Type": "Sale",</b>
+  <b>"ProcessingMethod": "CardPresent",</b>
+  <b>"Terminal": "T1",</b>
   "Card": {
     "Billto": {
       "City": "LA",
@@ -639,8 +639,8 @@ When specifying an amount to capture or refund, note that over-capture and refun
   "Document": {
     "Head": [
       {
-        "Name": "CaptureComplete",
-        "Value": false
+        <b>"Name": "CaptureComplete",</b>
+        <b>"Value": false</b>
       }
     ]
   }
